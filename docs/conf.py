@@ -167,6 +167,7 @@ linkcheck_ignore = [
     r"https://zenodo.org/",
     r"https://opensource.org/",
     r"https://www.mathworks.com/",
+    r"https://www.researchgate.net/",
     r"http.*://stackoverflow.com/questions/.*",
     r"http.*://stingraysoftware.slack.com/.*",
     r"https://join\.slack\.com/t/stingraysoftware/shared_invite/.*",
