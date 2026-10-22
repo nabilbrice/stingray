@@ -3,9 +3,10 @@ codecov:
     # do not notify (default notification is email)
 
 comment:
-    after_n_builds: 7
-    # will leave a comment on the pull request after 7 (out of 9)
-    # continuous integration tests have completed
+    after_n_builds: 1
+    # The coverage reports of all the test jobs are now sent together, as one
+    # upload, by the codecov_upload.yml workflow, so there is a single build to
+    # wait for before commenting.
 
 coverage:
   round: nearest
