@@ -41,7 +41,7 @@ def _folding_search(
     start_times = np.arange(times[0], times[-1], segment_size)
     count = 0
     for i_s, s in enumerate(start_times):
-        # The last segment must include its end point, 
+        # The last segment must include its end point,
         # otherwise when the length is a multiple of segment_size, the last sample is lost
         if i_s == len(start_times) - 1:
             good = times >= s
